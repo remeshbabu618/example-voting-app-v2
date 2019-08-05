@@ -16,9 +16,9 @@ spec:
         labels:
           name: voting-app-pod
           app: demo-voting-app
-      spec:
-        containers:
-          - name: voting-app
-            image: dockersamples/examplevotingapp_vote
-            ports:
-              - containerPort: 80
+    spec:
+      containers:
+      - name: voting-app
+        image: dockersamples/examplevotingapp_vote
+        ports:
+        - containerPort: 80
